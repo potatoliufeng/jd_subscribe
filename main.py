@@ -37,4 +37,4 @@ def jd_subscribe(plant_code,fruit_code,pet_code):
         url = 'http://pushplus.hxtrip.com/customer/push/send?token='+token+'&title='+title+'&content='+content
         requests.get(url)
 if __name__ == "__main__":
-   jd_subscribe('plant1','fruit1','pet1')
+   jd_subscribe(plant1,fruit1,pet1)
